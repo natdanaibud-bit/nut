@@ -1,155 +1,139 @@
 const items = {};
 
-/* รายการ Spirited Away */
-items.spirited = {
+/* 1. Long Live A$AP (2013) */
+items["spirited"] = {
   id: "spirited",
-  name: "Spirited Away",
-  group: "films",
-  category: "หนัง",
-  maker: "Hayao Miyazaki",
-  makerLabel: "ผู้กำกับ",
-  caption: "ฉากรถไฟที่ยังอยากกลับไปดู",
+  name: "Long Live A$AP (2013)",
+  group: "music",
+  category: "อัลบั้ม",
+  maker: "A$AP ROCKY",
+  makerLabel: "ศิลปิน",
+  caption: "อัลบั้มเปิดตัวอย่างเป็นทางการที่ขึ้นอันดับ 1 บิลบอร์ด",
   description:
-    "หนังของจิฮิโระที่หลงเข้าไปในโรงอาบน้ำของเหล่าเทพ ทั้งคนงาน แขก " +
-    "และของเล็ก ๆ ในฉากมีอะไรให้มองตลอด",
+    "อัลบั้มเปิดตัวอย่างเป็นทางการที่ขึ้นอันดับ 1 บิลบอร์ด มีเพลงฮิตระดับโลกอย่าง \"F**kin' Problems\" และ \"Wild for the Night\"",
   story:
-    "ดูหลายรอบแล้ว แต่ก็ยังรอฉากรถไฟทุกครั้ง ชอบที่หนังเงียบลงสักพัก " +
-    "เหลือแค่ตัวละครนั่งข้างกันกับน้ำที่ทอดยาวออกไป",
-  image: "assets/images/collection/spirited-away.jpg",
-  related: ["ram", "converse"],
+    "อัลบั้มชุดแรกที่สร้างชื่อให้ A$AP Rocky โดดเด่นด้วยการผสมผสานซาวด์เพลงฮิปฮอปหลากหลายภูมิภาคเข้าด้วยกันจนก้าวขึ้นสู่อันดับ 1 ของ Billboard 200",
+  image: "assets/images/collection/Live. Love. A$AP (2013).png",
+  related: ["ram", "prince"],
 };
 
-/* รายการ Random Access Memories */
-items.ram = {
+/* 2. At Long Last A$AP (2015) */
+items["ram"] = {
   id: "ram",
-  name: "Random Access Memories",
+  name: "At Long Last A$AP (2015)",
   group: "music",
-  category: "เพลง",
-  maker: "Daft Punk",
+  category: "อัลบั้ม",
+  maker: "A$AP ROCKY",
   makerLabel: "ศิลปิน",
-  caption: "ฟังตั้งแต่เพลงแรกจนจบ",
+  caption: "ผลงานชิ้นเอกแนวไซเคเดลิกฮิปฮอป",
   description:
-    "Random Access Memories เป็นอัลบั้มของ Daft Punk ที่เลือกเปิดเวลานั่งทำงาน " +
-    "โดยเฉพาะวันที่อยากฟังอะไรยาว ๆ",
+    "ผลงานชิ้นเอกที่เต็มไปด้วยดนตรีแนวไซเคเดลิกฮิปฮอป (Psychedelic) มีเพลงไอคอนิกอย่าง \"L.S.D.\" และ \"Lord Pretty Flacko Jodye 2\"",
   story:
-    "พอเปิดบ่อยก็เริ่มจำได้ว่าเพลงถัดไปจะเข้ามาตอนไหน " +
-    "ชอบฟังต่อกันมากกว่าสุ่มเพลง บางวันฟังจบแล้วก็เปิดใหม่ตั้งแต่ต้น",
-  image: "assets/images/collection/random-access-memories.jpg",
+    "งานเพลงสไตล์ Psychedelic Rap ที่ทดลองซาวด์ใหม่ๆ อย่างมีมิติ สร้างบรรยากาศดนตรีล่องลอยและถือเป็นหนึ่งในผลงานคลาสสิกของเขา",
+  image: "assets/images/collection/At. Long. Last. A$AP (2015).png",
+  related: ["spirited", "prince"],
+};
+
+/* 3. Testing (2018) */
+items["prince"] = {
+  id: "prince",
+  name: "Testing (2018)",
+  group: "music",
+  category: "อัลบั้ม",
+  maker: "A$AP ROCKY",
+  makerLabel: "ศิลปิน",
+  caption: "การทดลองซาวด์ดนตรีแปลกใหม่และล้ำยุค",
+  description:
+    "อัลบั้มที่ Rocky ทดลองซาวด์ดนตรีแปลกใหม่และล้ำยุค มีเพลงที่ดังที่สุดของเขาอย่าง \"Praise the Lord (Da Shine)\"",
+  story:
+    "อัลบั้มที่ตั้งใจฉีกทุกกฎเกณฑ์เดิมๆ สมชื่อ Testing นำเสนอไอเดียทางแฟชั่น ศิลปะ และดนตรีแนวนวัตกรรมแปลกใหม่",
+  image: "assets/images/collection/Testing (2018).png",
+  related: ["x100", "budapest"],
+};
+
+/* 4. Don't Be Dumb (2026) */
+items["x100"] = {
+  id: "x100",
+  name: "Don't Be Dumb (2026)",
+  group: "music",
+  category: "อัลบั้ม",
+  maker: "A$AP ROCKY",
+  makerLabel: "ศิลปิน",
+  caption: "อัลบั้มเต็มล่าสุดที่แฟนๆ รอคอยมานาน",
+  description:
+    "อัลบั้มเต็มล่าสุดของเขาในปีนี้ ที่แฟนๆ รอคอยมานาน นำเสนอทิศทางดนตรีที่เติบโตขึ้นและเต็มไปด้วยการทดลองใหม่ๆ",
+  story:
+    "การกลับมาครั้งสำคัญที่สานต่อตัวตนและพัฒนาการทางดนตรี สะท้อนประสบการณ์ที่ผ่านกระบวนการคิดและสร้างสรรค์อย่างลึกซึ้ง",
+  image: "assets/images/collection/Don't Be Dumb (2026).png",
   related: ["prince", "budapest"],
 };
 
-/* รายการ The Little Prince */
-items.prince = {
-  id: "prince",
-  name: "The Little Prince",
-  group: "books",
-  category: "หนังสือ",
-  maker: "Antoine de Saint-Exupéry",
-  makerLabel: "ผู้เขียน",
-  caption: "อ่านได้อีก แม้จะรู้เรื่องแล้ว",
-  description:
-    "เรื่องของเจ้าชายน้อยที่เดินทางไปตามดาวต่าง ๆ เล่มบาง อ่านไม่นาน " +
-    "แต่มีหลายตอนที่อยากกลับมาอ่านอีก",
-  story:
-    "บางครั้งเปิดมาดูรูป บางครั้งก็กลับไปอ่านประโยคที่จำได้ " +
-    "อ่านครั้งใหม่แล้วชอบคนละตอนกับครั้งก่อน เล่มนี้เลยยังไม่เบื่อสักที",
-  image: "assets/images/collection/the-little-prince.jpg",
-  related: ["am", "x100"],
-};
-
-/* รายการ Fujifilm X100 */
-items.x100 = {
-  id: "x100",
-  name: "Fujifilm X100",
-  group: "cameras",
-  category: "สิ่งของ",
-  maker: "Fujifilm",
-  makerLabel: "ผู้ผลิต",
-  caption: "ชอบปุ่มหมุนกับหน้าตาของมัน",
-  description:
-    "Fujifilm X100 เป็นกล้องที่เห็นรูปแล้วสะดุดตา ตัวกล้องสีเงินกับดำ " +
-    "มีช่องมองภาพและปุ่มหมุนด้านบน ดูแล้วอยากลองหยิบมาถ่ายรูป",
-  story:
-    "ชอบรายละเอียดบนตัวกล้อง ทั้งปุ่มหมุน ขอบโลหะ และผิวจับด้านหน้า " +
-    "แค่ดูรูปก็เพลินแล้ว ถ้ามีโอกาสก็อยากลองใช้สักครั้ง",
-  image: "assets/images/collection/fujifilm-x100.png",
-  related: ["spirited", "hobbit"],
-};
-
-/* รายการ The Grand Budapest Hotel */
-items.budapest = {
+/* 5. LiveLoveA$AP (2011) */
+items["budapest"] = {
   id: "budapest",
-  name: "The Grand Budapest Hotel",
-  group: "films",
-  category: "หนัง",
-  maker: "Wes Anderson",
-  makerLabel: "ผู้กำกับ",
-  caption: "ชอบสีและของเล็ก ๆ ในแต่ละฉาก",
-  description:
-    "The Grand Budapest Hotel เล่าเรื่องวุ่น ๆ ในโรงแรมสีชมพู " +
-    "มีทั้งตัวละครที่แต่งตัวจัดและฉากที่จำได้ทันที",
-  story:
-    "ดูรอบแรกตามเรื่อง พอดูอีกทีก็มัวแต่มองสี เสื้อผ้า และของในฉาก " +
-    "มีรายละเอียดที่เพิ่งเห็นเพิ่มทุกครั้ง",
-  image: "assets/images/collection/the-grand-budapest-hotel.jpg",
-  related: ["converse", "ram"],
-};
-
-/* รายการ AM */
-items.am = {
-  id: "am",
-  name: "AM",
+  name: "LiveLoveA$AP (2011)",
   group: "music",
-  category: "เพลง",
-  maker: "Arctic Monkeys",
+  category: "มิกซ์เทป",
+  maker: "A$AP ROCKY",
   makerLabel: "ศิลปิน",
-  caption: "เห็นปกก็จำได้ทันที",
+  caption: "มิกซ์เทปชุดแรกที่เปลี่ยนชีวิตของ Rocky",
   description:
-    "AM ของ Arctic Monkeys เป็นอัลบั้มที่หยิบมาฟังระหว่างเดินทาง " +
-    "มีเพลงที่คุ้นหูจนร้องตามได้หลายเพลง",
+    "มิกซ์เทปชุดแรกที่เปลี่ยนชีวิตของ Rocky และสร้างแรงสั่นสะเทือนให้วงการฮิปฮอปด้วยเพลง \"Peso\" และ \"Purple Swag\"",
   story:
-    "ชอบเสียงเบสที่วนอยู่ในเพลง เปิดแล้วเดินต่อได้เรื่อย ๆ " +
-    "ไม่ต้องคอยหยิบโทรศัพท์มาเลือกเพลงใหม่",
-  image: "assets/images/collection/arctic-monkeys-am.jpg",
-  related: ["hobbit", "x100"],
+    "จุดแจ้งเกิดอันทรงพลังที่นำเอกลักษณ์ Cloud Rap และภาพลักษณ์สตรีทแฟชั่นมาเปลี่ยนโฉมหน้าวงการฮิปฮอปยุคใหม่",
+  image: "assets/images/collection/Live. Love. A$AP (2011).png",
+  related: ["spirited", "am"],
 };
 
-/* รายการ The Hobbit */
-items.hobbit = {
+/* 6. Beauty & The Beast Slowed Down Chapter 1 */
+items["am"] = {
+  id: "am",
+  name: "Beauty & The Beast Slowed Down Chapter 1",
+  group: "music",
+  category: "EP / Remix",
+  maker: "A$AP ROCKY",
+  makerLabel: "ศิลปิน",
+  caption: "เวอร์ชัน Chopped and Screwed เพิ่มความล่องลอย",
+  description:
+    "EP ที่นำเพลงฮิตอย่าง \"I Smoked Away My Brain\" มาทำในเวอร์ชันดัดแปลง (Chopped and Screwed) เพิ่มความล่องลอย",
+  story:
+    "การนำเพลงดั้งเดิมมาปรับจังหวะให้ช้าลงตามสไตล์ซาวด์ Chopped and Screwed มอบอารมณ์ฟังผ่อนคลายและสร้างมิติเสียงใหม่",
+  image: "assets/images/collection/Beauty & The Beast Slowed Down Chapter 1.png",
+  related: ["budapest", "hobbit"],
+};
+
+/* 7. Cozy Tapes Vol1: Friends (2016) */
+items["hobbit"] = {
   id: "hobbit",
-  name: "The Hobbit",
-  group: "books",
-  category: "หนังสือ",
-  maker: "J. R. R. Tolkien",
-  makerLabel: "ผู้เขียน",
-  caption: "อยากออกเดินทางตั้งแต่เห็นปก",
+  name: "Cozy Tapes Vol1: Friends (2016)",
+  group: "music",
+  category: "อัลบั้มกลุ่ม",
+  maker: "A$AP Mob",
+  makerLabel: "กลุ่มศิลปิน",
+  caption: "อัลบั้มโปรเจกต์กลุ่มเพื่ออุทิศให้กับ A$AP Yams",
   description:
-    "The Hobbit เริ่มจากบ้านของบิลโบ แล้วพาออกไปไกลกว่าที่เจ้าตัวคิดไว้ " +
-    "เป็นเล่มที่หยิบอ่านเมื่อมีเวลายาวหน่อย",
+    "อัลบั้มโปรเจกต์กลุ่มในนาม A$AP Mob เพื่ออุทิศให้กับ A$AP Yams ผู้ล่วงลับ มีเพลงเด่นอย่าง \"Yamborghini High\"",
   story:
-    "ชอบตอนที่บิลโบยังลังเลว่าจะไปดีไหม อ่านแล้วอยากรู้ว่าพอเดินออกจากบ้าน " +
-    "เขาจะเจออะไรต่อ",
-  image: "assets/images/collection/the-hobbit.jpg",
-  related: ["budapest", "converse"],
+    "ผลงานความร่วมมือของสมาชิก A$AP Mob และเพื่อนๆ ในวงการ ที่ร่วมกันสร้างสรรค์บทเพลงเพื่อระลึกถึงผู้ก่อตั้งกลุ่ม",
+  image: "assets/images/collection/Cozy Tapes Vol. 1 Friends (2016.png",
+  related: ["converse", "am"],
 };
 
-/* รายการ Converse All Star */
-items.converse = {
+/* 8. Cozy Tapes Vol. 2 Too Cozy (2017) */
+items["converse"] = {
   id: "converse",
-  name: "Converse All Star",
-  group: "objects",
-  category: "สิ่งของ",
-  maker: "Converse",
-  makerLabel: "แบรนด์",
-  caption: "คู่เรียบ ๆ ที่ใส่กับอะไรก็ได้",
+  name: "Cozy Tapes Vol. 2 Too Cozy (2017)",
+  group: "music",
+  category: "อัลบั้มกลุ่ม",
+  maker: "A$AP Mob",
+  makerLabel: "กลุ่มศิลปิน",
+  caption: "ภาคต่อความมันส์ขนศิลปินดังมาร่วมแจมเพียบ",
   description:
-    "รองเท้าผ้าใบสีดำกับพื้นยางสีขาว หน้าตาคุ้นเคยที่เห็นได้เรื่อย ๆ " +
-    "ทั้งในรูปเก่าและบนถนน",
+    "ภาคต่อความมันส์ของกลุ่ม A$AP Mob ที่ขนศิลปินดังมาร่วมแจมเพียบ รวมเพลงฮิตสายเดือดอย่าง \"Raf\" และ \"Frat Rules\"",
   story:
-    "ชอบที่รูปทรงมันเรียบ มีแค่ผ้า เชือก และขอบยาง " +
-    "พอมีรอยใช้งานก็ยิ่งดูเป็นรองเท้าของคนที่ใส่จริง ๆ",
-  image: "assets/images/collection/converse-all-star.jpg",
-  related: ["prince", "am"],
+    "ภาคต่ออัลบั้มกลุ่มที่อัดแน่นด้วยความสนุกและเคมีอันยอดเยี่ยมระหว่าง A$AP Mob และศิลปินรับเชิญระดับท็อปของวงการ",
+  image: "assets/images/collection/Cozy Tapes Vol. 2 Too Cozy (2017).png",
+  related: ["hobbit", "ram"],
 };
 
 /* อ่าน id จาก URL */
@@ -157,44 +141,56 @@ const itemId =
   new URLSearchParams(window.location.search).get("id") || "spirited";
 const item = Object.hasOwn(items, itemId) ? items[itemId] : null;
 
-/* ฟังก์ชันแสดงข้อมูล */
+/* ฟังก์ชันแสดงข้อมูลหลัก */
 function showDetail(item) {
-  document.title = "Detail | Personal Collection";
+  document.title = item.name + " | Personal Collection";
   document.querySelectorAll("[data-field]").forEach(function (element) {
-    element.textContent = item[element.dataset.field];
+    const field = element.dataset.field;
+    if (item[field]) {
+      element.textContent = item[field];
+    }
   });
   const image = document.querySelector("#detail-image");
-  image.src = item.image;
-  image.alt = item.name;
+  if (image) {
+    image.src = item.image;
+    image.alt = item.name;
+  }
 }
 
-/* ฟังก์ชันรายการที่เกี่ยวข้อง */
+/* ฟังก์ชันแสดงรายการที่เกี่ยวข้อง (More from the collection) */
 function showRelated(item) {
+  if (!item.related || item.related.length === 0) return;
+
   item.related.forEach(function (id, index) {
     const related = items[id];
+    if (!related) return;
+
     const suffix = index === 0 ? "" : "-2";
-    document.querySelector("#related-link" + suffix).href =
-      "detail.html?id=" + id;
-    document.querySelector("#related-image" + suffix).src = related.image;
-    document.querySelector("#related-name" + suffix).textContent = related.name;
-    document.querySelector("#related-caption" + suffix).textContent =
-      related.caption;
+    const linkEl = document.querySelector("#related-link" + suffix);
+    const imgEl = document.querySelector("#related-image" + suffix);
+    const nameEl = document.querySelector("#related-name" + suffix);
+    const captionEl = document.querySelector("#related-caption" + suffix);
+
+    if (linkEl) linkEl.href = "detail.html?id=" + id;
+    if (imgEl) {
+      imgEl.src = related.image;
+      imgEl.alt = related.name;
+    }
+    if (nameEl) nameEl.textContent = related.name;
+    if (captionEl) captionEl.textContent = related.caption;
   });
 }
 
-/* เลือกการแสดงผล */
-if (item) {
-  showDetail(item);
-  showRelated(item);
-} else {
-  document.querySelector("#detail-content").hidden = true;
-  document.querySelector("#not-found").hidden = false;
-  document.title = "Detail | Personal Collection";
-}
-
-
-
-
-
-
-
+/* เลือกการแสดงผลเมื่อ DOM พร้อม */
+document.addEventListener("DOMContentLoaded", function () {
+  if (item) {
+    showDetail(item);
+    showRelated(item);
+  } else {
+    const detailContent = document.querySelector("#detail-content");
+    const notFound = document.querySelector("#not-found");
+    if (detailContent) detailContent.hidden = true;
+    if (notFound) notFound.hidden = false;
+    document.title = "Detail | Personal Collection";
+  }
+});
